@@ -1,0 +1,94 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3.0rem;
+  top: -10px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+li {
+  font-size: 1.4rem;
+}
+
+.greetings h3,
+.greetings h1 {
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-group .button {
+  margin-right: 80px;
+  min-width: 120px;
+  min-height: 40px;
+  border-radius: 15px;
+  border: 1px hsla(160, 100%, 37%, 1);
+
+  font-size: 1.4rem;
+
+  padding: 15px 10px;
+  margin-top: 10rem;
+
+  background-color: hsla(160, 100%, 37%, 1);
+  color: #fff;
+  &:hover {
+    background-color: hsla(160, 50%, 37%, 1);
+  }
+}
+
+.tg {
+  border-collapse:collapse;
+  border-spacing:0;
+  margin:30px auto;
+}
+
+.tg td {
+  border-color:hsla(160, 100%, 37%, 1);
+  border-style:solid;
+  border-width:1px;
+  font-size:1.4rem;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.tg th {
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-size:1.4rem;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.tg .tg-0lax {
+  text-align:center;
+  vertical-align:center;
+}
+
