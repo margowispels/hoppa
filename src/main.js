@@ -1,7 +1,7 @@
 import "./styles/main.css";
 
 import { createApp } from "vue";
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 
 import App from "./App.vue";
 import Home from "./components/Home.vue";
@@ -18,7 +18,7 @@ import P4_3 from "./components/P4_3.vue";
 import End from "./components/End.vue";
 
 const router = createRouter({
-    history: createMemoryHistory(),
+    history: createWebHashHistory(),
     routes: [
       { path: '/', name: 'home', component: Home },
       { path: '/P1', name: 'P1', component: P1 },

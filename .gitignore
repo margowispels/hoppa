@@ -3,5 +3,8 @@ node_modules
 # deploy
 deploy.sh
 
+# build
+dist
+
 # mac
 .DS_Store
