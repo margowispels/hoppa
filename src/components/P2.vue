@@ -17,11 +17,9 @@ function goToP2ja() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Kun je één of meerdere van de volgende vragen met ja beantwoorden?</h1>
-  </div>
-  <div>
-    <h3 style="margin-top:3cm;">
+  <div class="div_hoppa">
+    <h1>Kun je één of meerdere van de volgende vragen met ja beantwoorden?</h1>
+    <h3>
         <ul>
             <li>Zijn er aanwijzingen voor dyslexie of een ander leerprobleem?</li>
             <li>Zijn er aanwijzingen voor ADHD, ASS of een ander ontwikkelingsprobleem?</li>

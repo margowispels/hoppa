@@ -9,8 +9,8 @@ function goBackToP1() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Je herkent in dit rijtje geen kenmerken van begaafdheid</h1>
+  <div class="div_hoppa">
+    <h1>Je herkent in dit rijtje geen kenmerken van begaafdheid</h1>
     <h3>
       Dit sluit niet uit dat er mogelijk wel sprake van kenmerken 
       van begaafdheid kunnen zijn, maar er kan ook een andere 

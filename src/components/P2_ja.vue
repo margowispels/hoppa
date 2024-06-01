@@ -9,8 +9,8 @@ function goBackFromP1jaToP2() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Je herkent een leer- en/of ontwikkelingsprobleem bij de leerling</h1>
+  <div class="div_hoppa">
+    <h1>Je herkent een leer- en/of ontwikkelingsprobleem bij de leerling</h1>
     <h3>
       Er zou sprake kunnen zijn van dubbel bijzonderheid. Dit is 
       een combinatie van begaafdheid met een leer- en/of 

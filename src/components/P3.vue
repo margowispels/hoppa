@@ -17,35 +17,37 @@ function goFromP3ToP4() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Kennmerken onderpresteren</h1>
+  <div class="div_hoppa">
+    <h1>Kennmerken onderpresteren</h1>
     <h3>
         Herken je één of meerdere van de volgende kenmerken bij de betreffende leerling?
     </h3>
-    <table class="tg">
+    <div class="flex items-center justify-center ml-4 sm:ml-0">
+      <table class="tg">
         <tbody>
-            <tr>
-                <td class="tg-0lax">lage academische zelfperceptie</td>
-                <td class="tg-0lax">negatieve houding jegens school en docenten</td>
-                <td class="tg-0lax">weinig moeite doen voor schoolse taken</td>
+            <tr class="tr">
+                <td class="td">lage academische zelfperceptie</td>
+                <td class="td">negatieve houding jegens school en docenten</td>
+                <td class="td">weinig moeite doen voor schoolse taken</td>
             </tr>
-            <tr>
-                <td class="tg-0lax">lage motivatie</td>
-                <td class="tg-0lax">heel creatief</td>
-                <td class="tg-0lax">lage zelfeffectiviteit</td>
+            <tr class="tr">
+                <td class="td">lage motivatie</td>
+                <td class="td">heel creatief</td>
+                <td class="td">lage zelfeffectiviteit</td>
             </tr>
-            <tr>
-                <td class="tg-0lax">externe attributies</td>
-                <td class="tg-0lax">lage doelwaardering</td>
-                <td class="tg-0lax">uitstelgedrag</td>
+            <tr class="tr">
+                <td class="td">externe attributies</td>
+                <td class="td">lage doelwaardering</td>
+                <td class="td">uitstelgedrag</td>
             </tr>
-            <tr>
-                <td class="tg-0lax">lage metacognitieve vaardigheden</td>
-                <td class="tg-0lax">grote verschillen in resultaten binnen een vak</td>
-                <td class="tg-0lax">verschil in verwachte score en daadwerkelijk resultaat</td>
+            <tr class="tr">
+                <td class="td">lage metacognitieve vaardigheden</td>
+                <td class="td">grote verschillen in resultaten binnen een vak</td>
+                <td class="td">verschil in verwachte score en daadwerkelijk resultaat</td>
             </tr>
         </tbody>
     </table>
+    </div>
   </div>
   <div class="button-group">
     <button class="button" @click="goToP3nee">nee</button>
