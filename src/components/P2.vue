@@ -20,10 +20,10 @@ function goToP2ja() {
   <div class="div_hoppa">
     <h1>Kun je één of meerdere van de volgende vragen met ja beantwoorden?</h1>
     <h3>
-        <ul>
-            <li>Zijn er aanwijzingen voor dyslexie of een ander leerprobleem?</li>
-            <li>Zijn er aanwijzingen voor ADHD, ASS of een ander ontwikkelingsprobleem?</li>
-        </ul>
+      <ul class="list-decimal text-left p-2 m-4">
+          <li>Zijn er aanwijzingen voor dyslexie of een ander leerprobleem?</li>
+          <li>Zijn er aanwijzingen voor ADHD, ASS of een ander ontwikkelingsprobleem?</li>
+      </ul>
     </h3>
   </div>
   <div class="button-group">

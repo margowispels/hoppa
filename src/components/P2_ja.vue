@@ -18,7 +18,7 @@ function goBackFromP1jaToP2() {
       of is er nog meer nodig? Wat zijn de talenten van de 
       leerling en wordt hier al wat op ingezet? Wat geven de 
       leerling en ouders/verzorgers zelf aan? Het is aan te raden 
-      om deze leerling te bespreken met het LOG en/of 
+      om deze leerling te bespreken met de ondersteuning en/of 
       Orthopedagoog en/of de hoogbegaafdheidsspecialist op school.
     </h3>
     <br>

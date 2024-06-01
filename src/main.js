@@ -4,6 +4,7 @@ import { createApp } from "vue";
 import { createWebHashHistory, createRouter } from 'vue-router'
 
 import App from "./App.vue";
+import Disclaimer from "./components/Disclaimer.vue";
 import Home from "./components/Home.vue";
 import P1 from "./components/P1.vue";
 import P1_nee from "./components/P1_nee.vue";
@@ -20,7 +21,8 @@ import End from "./components/End.vue";
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
-      { path: '/', name: 'home', component: Home },
+      { path: '/', name: 'Disclaimer', component: Disclaimer },
+      { path: '/Home', name: 'Home', component: Home },
       { path: '/P1', name: 'P1', component: P1 },
       { path: '/P1_nee', name: 'P1_nee', component: P1_nee },
       { path: '/P2', name: 'P2', component: P2 },
@@ -33,6 +35,10 @@ const router = createRouter({
       { path: '/P4_3', name: 'P4_3', component: P4_3},            
       { path: '/End', name: 'End', component: End},      
     ],
+    scrollBehavior(to, from, savedPosition) {
+      // always scroll to top
+      return { top: 0 }
+    },    
   })
 
 createApp(App)

@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 function goBackToHome() {
-  router.push('/')
+  router.push('/Home')
 }
 
 function goToP1nee() {

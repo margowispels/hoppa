@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 function goToHome() {
-  router.push('/')
+  router.push('/Home')
 }
 
 function goBackToP4() {
@@ -25,8 +25,8 @@ function goBackToP4() {
         Dit is één manier om met onderpresteren aan de slag te kunnen gaan, er zijn 
         nog veel meer mogelijkheden. Denk daarbij ook eens aan het compacten, 
         verrijken of versnellen van één of meerdere vakken en om deze leerling te 
-        bespreken met het LOG en/of Orthopedagoog en/of de hoogbegaafdheidsspecialist 
-        op school.
+        bespreken met de ondersteuning en/of Orthopedagoog en/of de 
+        hoogbegaafdheidsspecialist op school.
     </h3>
     <br>
     <h3>
