@@ -9,8 +9,8 @@ function goToP1() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Herkennen en helpen van onderpresterende leerlingen</h1>
+  <div class="div_hoppa">
+    <h1>Herkennen en helpen van onderpresterende leerlingen</h1>
     <h3>
       Met dit keuzemenu kun je een idee krijgen of je te maken hebt 
       met leerlingen met kenmerken van begaafdheid, dubbel bijzondere 

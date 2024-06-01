@@ -14,8 +14,8 @@ function goBackToP4() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Niet het einde maar het begin</h1>
+  <div class="div_hoppa">
+    <h1>Niet het einde maar het begin</h1>
     <h3>
         Je hebt net een begin gemaakt met het voeren van gesprekken om de academische 
         motivatie bij leerlingen met mogelijke kenmerken van begaafdheid en 

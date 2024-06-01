@@ -17,35 +17,37 @@ function goFromP1ToP2() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Kennmerken begaafdheid</h1>
+  <div class="div_hoppa">
+    <h1>Kenmerken begaafdheid</h1>
     <h3>
         Herken je één of meerdere van de volgende kenmerken bij de betreffende leerling?
     </h3>
-    <table class="tg">
+    <div class="flex items-center justify-center ml-4 sm:ml-0">
+      <table class="tg">
         <tbody>
-            <tr>
-                <td class="tg-0lax">goed probleemoplossend vermogen</td>
-                <td class="tg-0lax">snel leervermogen en lange aandachtsspanne</td>
-                <td class="tg-0lax">hoge IQ score (+/- 130)</td>
-            </tr>
-            <tr>
-                <td class="tg-0lax">uitgebreide woordenschat</td>
-                <td class="tg-0lax">goed werkend geheugen</td>
-                <td class="tg-0lax">perfectionisme</td>
-            </tr>
-            <tr>
-                <td class="tg-0lax">brede interesse</td>
-                <td class="tg-0lax">nieuwsgierigheid</td>
-                <td class="tg-0lax">doorzettingsvermogen</td>
-            </tr>
-            <tr>
-                <td class="tg-0lax">sterk rechtvaardigheidsgevoel</td>
-                <td class="tg-0lax">emotionele intensitiet</td>
-                <td class="tg-0lax">verhoogde gevoeligheid voor omgevingsstimuli</td>
-            </tr>
+          <tr class="tr">
+              <td class="td">goed probleemoplossend vermogen</td>
+              <td class="td">snel leervermogen en lange aandachtsspanne</td>
+              <td class="td">hoge IQ score (+/- 130)</td>
+          </tr>
+          <tr class="tr">
+              <td class="td">uitgebreide woordenschat</td>
+              <td class="td">goed werkend geheugen</td>
+              <td class="td">perfectionisme</td>
+          </tr>
+          <tr class="tr">
+              <td class="td">brede interesse</td>
+              <td class="td">nieuwsgierigheid</td>
+              <td class="td">doorzettingsvermogen</td>
+          </tr>
+          <tr class="tr">
+              <td class="td">sterk rechtvaardigheidsgevoel</td>
+              <td class="td">emotionele intensitiet</td>
+              <td class="td">verhoogde gevoeligheid voor omgevingsstimuli</td>
+          </tr>
         </tbody>
-    </table>    
+      </table>
+    </div>
   </div>
   <div class="button-group">
     <button class="button" @click="goToP1nee">nee</button>

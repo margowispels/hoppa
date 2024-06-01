@@ -9,8 +9,8 @@ function goBackToP3() {
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">Je herkent in dit rijtje geen kenmerken van onderpresteren</h1>
+  <div class="div_hoppa">
+    <h1>Je herkent in dit rijtje geen kenmerken van onderpresteren</h1>
     <h3>
         Dit sluit niet uit dat er mogelijk wel sprake van 
         onderpresteren kan zijn, maar er kan ook een andere reden 
