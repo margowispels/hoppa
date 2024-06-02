@@ -14,6 +14,7 @@ function goToEnd() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Zelfeffectiviteit (uitleg en enkele voorbeeld vragen)</h1>
     <h3>
@@ -58,8 +59,9 @@ function goToEnd() {
         </li>                        
     </ol>    
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goBackToP4">vorige</button>
     <button class="button" @click="goToEnd">volgende</button>    
   </div>
+</div>  
 </template>

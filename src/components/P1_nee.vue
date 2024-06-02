@@ -9,13 +9,14 @@ function goBackToP1() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Je herkent in dit rijtje geen kenmerken van begaafdheid</h1>
     <h3>
       Dit sluit niet uit dat er mogelijk wel sprake van kenmerken 
       van begaafdheid kunnen zijn, maar er kan ook een andere 
-      reden zijn voor je zoektocht. Zijn er bijvoorbeeld 
-      aanwijzingen van een leerstoornis of zijn er storende 
+      reden zijn voor je zoektocht naar geschikte hulp voor je leerling. 
+      Zijn er bijvoorbeeld aanwijzingen van een leerstoornis of zijn er storende 
       omgevingsfactoren? Wat geven de leerling en 
       ouders/verzorgers aan?
     </h3>
@@ -24,7 +25,8 @@ function goBackToP1() {
       Succes met je zoektocht en schroom niet om hulp te vragen.
     </h3>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goBackToP1">vorige</button>
-  </div>  
+  </div>
+</div>  
 </template>

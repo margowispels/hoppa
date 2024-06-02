@@ -9,6 +9,7 @@ function goBackFromP1jaToP2() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Je herkent een leer- en/of ontwikkelingsprobleem bij de leerling</h1>
     <h3>
@@ -26,8 +27,9 @@ function goBackFromP1jaToP2() {
       Bedankt voor je tijd en succes met je zoektocht!
     </h3>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goBackFromP1jaToP2">vorige</button>
   </div>
+</div>  
 </template>
 

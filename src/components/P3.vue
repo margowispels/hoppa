@@ -17,6 +17,7 @@ function goFromP3ToP4() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Kennmerken onderpresteren</h1>
     <h3>
@@ -49,9 +50,10 @@ function goFromP3ToP4() {
     </table>
     </div>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goToP3nee">nee</button>
     <button class="button" @click="goBackToP2">vorige</button>
     <button class="button" @click="goFromP3ToP4">ja</button>    
   </div>
+</div>  
 </template>

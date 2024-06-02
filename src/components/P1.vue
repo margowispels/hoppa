@@ -17,6 +17,7 @@ function goFromP1ToP2() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Kenmerken begaafdheid</h1>
     <h3>
@@ -49,9 +50,10 @@ function goFromP1ToP2() {
       </table>
     </div>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goToP1nee">nee</button>
     <button class="button" @click="goBackToHome">vorige</button>
     <button class="button" @click="goFromP1ToP2">ja</button>
   </div>
+</div>
 </template>

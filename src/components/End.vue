@@ -14,6 +14,7 @@ function goBackToP4() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
     <h1>Niet het einde maar het begin</h1>
     <h3>
@@ -33,8 +34,9 @@ function goBackToP4() {
       Bedankt voor je tijd en succes met je verdere zoektocht!
     </h3>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goBackToP4">vorige</button>
     <button class="button" @click="goToHome">opnieuw</button>
   </div>  
+</div>  
 </template>

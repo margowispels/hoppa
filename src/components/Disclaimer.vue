@@ -9,12 +9,12 @@ function goToHome() {
 </script>
 
 <template>
+<div class="flex flex-col items-center">
   <div class="div_hoppa">
-    <h1>Disclaimer</h1>
-    <h3>
-    </h3>
+    <h1>Herkennen en helpen van onderpresterende leerlingen</h1>
   </div>
-  <div class="button-group">
+  <div class="div_button_group">
     <button class="button" @click="goToHome">start</button>
-  </div>  
+  </div>
+</div>  
 </template>
