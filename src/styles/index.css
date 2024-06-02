@@ -85,7 +85,6 @@
             color 0.5s,
             background-color 0.5s;
         line-height: 1.6;
-        font-size: 15px;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -98,19 +97,19 @@
 
 @layer components {
     .div_hoppa {
-        @apply max-w-xl mx-auto mt-6 rounded-xl shadow-md overflow-hidden box-border p-4 border-2 lg:max-w-6xl;
+        @apply mx-auto mt-6 rounded-xl shadow-md overflow-hidden box-border p-4 border-2 sm:max-w-xl md:max-w-2xl lg:max-w-4xl;
     }
 
     .div_hoppa h1 {
-        @apply mt-8 p-3 -top-2.5 text-3xl text-center text-mygreen font-medium font-extrabold sm:text-3xl md:text-4xl lg:text-5xl;
+        @apply text-3xl text-center text-mygreen font-medium font-extrabold md:text-4xl lg:text-5xl;
     }
 
     .div_hoppa h3 {
-        @apply text-center font-medium text-xl md:text-2xl lg:text-3xl;
+        @apply mt-2 text-center font-medium text-xl md:text-2xl lg:text-3xl;
     }
 
-    .button-group {
-        @apply flex flex-row items-center justify-center space-x-2 mx-auto h-32 w-96;
+    .div_button_group {
+        @apply flex flex-row justify-center mt-4 space-x-2 h-12 w-96;
     }
 
     .tg {
