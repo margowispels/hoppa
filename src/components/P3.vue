@@ -19,7 +19,7 @@ function goFromP3ToP4() {
 <template>
 <div class="flex flex-col items-center">
   <div class="div_hoppa">
-    <h1>Kennmerken onderpresteren</h1>
+    <h1>Kenmerken onderpresteren</h1>
     <h3>
         Herken je één of meerdere van de volgende kenmerken bij de betreffende leerling?
     </h3>
