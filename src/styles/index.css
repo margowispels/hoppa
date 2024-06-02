@@ -88,6 +88,7 @@
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        scrollbar-color: mygreen;
     }
     
     button {
@@ -97,7 +98,7 @@
 
 @layer components {
     .div_hoppa {
-        @apply mx-auto mt-6 rounded-xl shadow-md overflow-hidden box-border p-4 border-2 sm:max-w-xl md:max-w-2xl lg:max-w-4xl;
+        @apply mx-auto mt-6 rounded-xl shadow-md overflow-auto box-border p-4 border-2 sm:max-w-xl md:max-w-2xl lg:max-w-4xl;
     }
 
     .div_hoppa h1 {
