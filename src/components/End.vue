@@ -14,7 +14,7 @@ function goBackToP4() {
 </script>
 
 <template>
-<div class="flex flex-col items-center">
+<div class="flex flex-col justify-center items-center h-screen">
   <div class="div_hoppa">
     <h1>Niet het einde maar het begin</h1>
     <h3>

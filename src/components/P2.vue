@@ -17,7 +17,7 @@ function goToP2ja() {
 </script>
 
 <template>
-<div class="flex flex-col items-center">
+<div class="flex flex-col justify-center items-center h-screen">
   <div class="div_hoppa">
     <h1>Kun je één of meerdere van de volgende vragen met ja beantwoorden?</h1>
     <h3>

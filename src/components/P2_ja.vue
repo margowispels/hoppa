@@ -9,7 +9,7 @@ function goBackFromP1jaToP2() {
 </script>
 
 <template>
-<div class="flex flex-col items-center">
+<div class="flex flex-col justify-center items-center h-screen">
   <div class="div_hoppa">
     <h1>Je herkent een leer- en/of ontwikkelingsprobleem bij de leerling</h1>
     <h3>

@@ -9,7 +9,7 @@ function goBackToP1() {
 </script>
 
 <template>
-<div class="flex flex-col items-center">
+<div class="flex flex-col justify-center items-center h-screen">
   <div class="div_hoppa">
     <h1>Je herkent in dit rijtje geen kenmerken van begaafdheid</h1>
     <h3>
