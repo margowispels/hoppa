@@ -16,7 +16,7 @@ function goBackToP3() {
         Waar zou de leerling zich nog in kunnen ontwikkelen?
         <br>
         Klik op één van de volgende opties
-        <ul class="list-disc text-left text-base p-2 m-4">
+        <ul class="list-disc text-left text-lg p-2 m-4">
             <li>
                 <router-link :to="{ name: 'P4_1' }">
                     <u class="text-mygreen">Zelfeffectiviteit</u> betekent dat je gelooft dat je de vaardigheden en middelen hebt om met deze uitdagingen om te gaan en succesvol te zijn.
