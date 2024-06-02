@@ -14,7 +14,7 @@ function goToEnd() {
 </script>
 
 <template>
-<div class="flex flex-col justify-center items-center h-screen">
+<div class="div_wrapper">
   <div class="div_hoppa">
     <h1>Omgevingsperceptie (uitleg en enkele voorbeeld vragen)</h1>
     <h3>

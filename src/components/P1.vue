@@ -17,7 +17,7 @@ function goFromP1ToP2() {
 </script>
 
 <template>
-<div class="flex flex-col justify-center items-center h-screen">
+<div class="div_wrapper">
   <div class="div_hoppa">
     <h1>Kenmerken begaafdheid</h1>
     <h3>

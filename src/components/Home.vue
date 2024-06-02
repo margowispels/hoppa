@@ -13,7 +13,7 @@ function goToP1() {
 </script>
 
 <template>
-<div class="flex flex-col justify-center items-center h-screen">
+<div class="div_wrapper">
   <div class="div_hoppa">
     <h1>Welkom</h1>
     <h3>
