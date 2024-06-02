@@ -21,25 +21,30 @@ import End from "./components/End.vue";
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
-      { path: '/', name: 'Disclaimer', component: Disclaimer },
-      { path: '/Home', name: 'Home', component: Home },
-      { path: '/P1', name: 'P1', component: P1 },
-      { path: '/P1_nee', name: 'P1_nee', component: P1_nee },
-      { path: '/P2', name: 'P2', component: P2 },
-      { path: '/P2_ja', name: 'P2_ja', component: P2_ja },
-      { path: '/P3', name: 'P3', component: P3 },
-      { path: '/P3_nee', name: 'P3_nee', component: P3_nee },
-      { path: '/P4', name: 'P4', component: P4},
-      { path: '/P4_1', name: 'P4_1', component: P4_1},
-      { path: '/P4_2', name: 'P4_2', component: P4_2},
-      { path: '/P4_3', name: 'P4_3', component: P4_3},            
-      { path: '/End', name: 'End', component: End},      
+      { path: '/', name: 'Disclaimer', component: Disclaimer, meta: {title: "Hoppa!!!"} , meta: {title: "Hoppa!!!"} },
+      { path: '/Home', name: 'Home', component: Home, meta: {title: "Hoppa!!!"}  , meta: {title: "Hoppa!!!"} },
+      { path: '/P1', name: 'P1', component: P1, meta: {title: "Hoppa!!!"}  , meta: {title: "Hoppa!!!"} },
+      { path: '/P1_nee', name: 'P1_nee', component: P1_nee, meta: {title: "Hoppa!!!"}  , meta: {title: "Hoppa!!!"} },
+      { path: '/P2', name: 'P2', component: P2 , meta: {title: "Hoppa!!!"} },
+      { path: '/P2_ja', name: 'P2_ja', component: P2_ja , meta: {title: "Hoppa!!!"} },
+      { path: '/P3', name: 'P3', component: P3 , meta: {title: "Hoppa!!!"} },
+      { path: '/P3_nee', name: 'P3_nee', component: P3_nee , meta: {title: "Hoppa!!!"} },
+      { path: '/P4', name: 'P4', component: P4, meta: {title: "Hoppa!!!"} },
+      { path: '/P4_1', name: 'P4_1', component: P4_1, meta: {title: "Hoppa!!!"} },
+      { path: '/P4_2', name: 'P4_2', component: P4_2, meta: {title: "Hoppa!!!"} },
+      { path: '/P4_3', name: 'P4_3', component: P4_3, meta: {title: "Hoppa!!!"} },            
+      { path: '/End', name: 'End', component: End, meta: {title: "Hoppa!!!"} },      
     ],
     scrollBehavior(to, from, savedPosition) {
       // always scroll to top
       return { top: 0 }
     },    
   })
+
+router.beforeEach( (to, from, next) => {
+  document.title = `${to.meta.title}`;
+  next();
+});
 
 createApp(App)
 .use(router)
